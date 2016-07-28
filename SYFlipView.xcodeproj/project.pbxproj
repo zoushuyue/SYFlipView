@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		898A87B21D49A71C0016F3A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 898A87B11D49A71C0016F3A4 /* main.m */; };
+		898A87B51D49A71C0016F3A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 898A87B41D49A71C0016F3A4 /* AppDelegate.m */; };
+		898A87B81D49A71C0016F3A4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 898A87B71D49A71C0016F3A4 /* ViewController.m */; };
+		898A87BB1D49A71C0016F3A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 898A87B91D49A71C0016F3A4 /* Main.storyboard */; };
+		898A87BD1D49A71C0016F3A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 898A87BC1D49A71C0016F3A4 /* Assets.xcassets */; };
+		898A87C01D49A71C0016F3A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 898A87BE1D49A71C0016F3A4 /* LaunchScreen.storyboard */; };
+		898A87CB1D49A71D0016F3A4 /* SYFlipViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 898A87CA1D49A71D0016F3A4 /* SYFlipViewTests.m */; };
+		898A87D61D49A71D0016F3A4 /* SYFlipViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 898A87D51D49A71D0016F3A4 /* SYFlipViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		898A87C71D49A71D0016F3A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 898A87A51D49A71C0016F3A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 898A87AC1D49A71C0016F3A4;
+			remoteInfo = SYFlipView;
+		};
+		898A87D21D49A71D0016F3A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 898A87A51D49A71C0016F3A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 898A87AC1D49A71C0016F3A4;
+			remoteInfo = SYFlipView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		898A87AD1D49A71C0016F3A4 /* SYFlipView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SYFlipView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		898A87B11D49A71C0016F3A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		898A87B31D49A71C0016F3A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		898A87B41D49A71C0016F3A4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		898A87B61D49A71C0016F3A4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		898A87B71D49A71C0016F3A4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		898A87BA1D49A71C0016F3A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		898A87BC1D49A71C0016F3A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		898A87BF1D49A71C0016F3A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		898A87C11D49A71C0016F3A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		898A87C61D49A71D0016F3A4 /* SYFlipViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SYFlipViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		898A87CA1D49A71D0016F3A4 /* SYFlipViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYFlipViewTests.m; sourceTree = "<group>"; };
+		898A87CC1D49A71D0016F3A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		898A87D11D49A71D0016F3A4 /* SYFlipViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SYFlipViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		898A87D51D49A71D0016F3A4 /* SYFlipViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYFlipViewUITests.m; sourceTree = "<group>"; };
+		898A87D71D49A71D0016F3A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		898A87AA1D49A71C0016F3A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		898A87C31D49A71D0016F3A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		898A87CE1D49A71D0016F3A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		898A87A41D49A71C0016F3A4 = {
+			isa = PBXGroup;
+			children = (
+				898A87AF1D49A71C0016F3A4 /* SYFlipView */,
+				898A87C91D49A71D0016F3A4 /* SYFlipViewTests */,
+				898A87D41D49A71D0016F3A4 /* SYFlipViewUITests */,
+				898A87AE1D49A71C0016F3A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		898A87AE1D49A71C0016F3A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				898A87AD1D49A71C0016F3A4 /* SYFlipView.app */,
+				898A87C61D49A71D0016F3A4 /* SYFlipViewTests.xctest */,
+				898A87D11D49A71D0016F3A4 /* SYFlipViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		898A87AF1D49A71C0016F3A4 /* SYFlipView */ = {
+			isa = PBXGroup;
+			children = (
+				898A87B31D49A71C0016F3A4 /* AppDelegate.h */,
+				898A87B41D49A71C0016F3A4 /* AppDelegate.m */,
+				898A87B61D49A71C0016F3A4 /* ViewController.h */,
+				898A87B71D49A71C0016F3A4 /* ViewController.m */,
+				898A87B91D49A71C0016F3A4 /* Main.storyboard */,
+				898A87BC1D49A71C0016F3A4 /* Assets.xcassets */,
+				898A87BE1D49A71C0016F3A4 /* LaunchScreen.storyboard */,
+				898A87C11D49A71C0016F3A4 /* Info.plist */,
+				898A87B01D49A71C0016F3A4 /* Supporting Files */,
+			);
+			path = SYFlipView;
+			sourceTree = "<group>";
+		};
+		898A87B01D49A71C0016F3A4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				898A87B11D49A71C0016F3A4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		898A87C91D49A71D0016F3A4 /* SYFlipViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				898A87CA1D49A71D0016F3A4 /* SYFlipViewTests.m */,
+				898A87CC1D49A71D0016F3A4 /* Info.plist */,
+			);
+			path = SYFlipViewTests;
+			sourceTree = "<group>";
+		};
+		898A87D41D49A71D0016F3A4 /* SYFlipViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				898A87D51D49A71D0016F3A4 /* SYFlipViewUITests.m */,
+				898A87D71D49A71D0016F3A4 /* Info.plist */,
+			);
+			path = SYFlipViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		898A87AC1D49A71C0016F3A4 /* SYFlipView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 898A87DA1D49A71D0016F3A4 /* Build configuration list for PBXNativeTarget "SYFlipView" */;
+			buildPhases = (
+				898A87A91D49A71C0016F3A4 /* Sources */,
+				898A87AA1D49A71C0016F3A4 /* Frameworks */,
+				898A87AB1D49A71C0016F3A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SYFlipView;
+			productName = SYFlipView;
+			productReference = 898A87AD1D49A71C0016F3A4 /* SYFlipView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		898A87C51D49A71D0016F3A4 /* SYFlipViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 898A87DD1D49A71D0016F3A4 /* Build configuration list for PBXNativeTarget "SYFlipViewTests" */;
+			buildPhases = (
+				898A87C21D49A71D0016F3A4 /* Sources */,
+				898A87C31D49A71D0016F3A4 /* Frameworks */,
+				898A87C41D49A71D0016F3A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				898A87C81D49A71D0016F3A4 /* PBXTargetDependency */,
+			);
+			name = SYFlipViewTests;
+			productName = SYFlipViewTests;
+			productReference = 898A87C61D49A71D0016F3A4 /* SYFlipViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		898A87D01D49A71D0016F3A4 /* SYFlipViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 898A87E01D49A71D0016F3A4 /* Build configuration list for PBXNativeTarget "SYFlipViewUITests" */;
+			buildPhases = (
+				898A87CD1D49A71D0016F3A4 /* Sources */,
+				898A87CE1D49A71D0016F3A4 /* Frameworks */,
+				898A87CF1D49A71D0016F3A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				898A87D31D49A71D0016F3A4 /* PBXTargetDependency */,
+			);
+			name = SYFlipViewUITests;
+			productName = SYFlipViewUITests;
+			productReference = 898A87D11D49A71D0016F3A4 /* SYFlipViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		898A87A51D49A71C0016F3A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = fuxi;
+				TargetAttributes = {
+					898A87AC1D49A71C0016F3A4 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					898A87C51D49A71D0016F3A4 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 898A87AC1D49A71C0016F3A4;
+					};
+					898A87D01D49A71D0016F3A4 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 898A87AC1D49A71C0016F3A4;
+					};
+				};
+			};
+			buildConfigurationList = 898A87A81D49A71C0016F3A4 /* Build configuration list for PBXProject "SYFlipView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 898A87A41D49A71C0016F3A4;
+			productRefGroup = 898A87AE1D49A71C0016F3A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				898A87AC1D49A71C0016F3A4 /* SYFlipView */,
+				898A87C51D49A71D0016F3A4 /* SYFlipViewTests */,
+				898A87D01D49A71D0016F3A4 /* SYFlipViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		898A87AB1D49A71C0016F3A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				898A87C01D49A71C0016F3A4 /* LaunchScreen.storyboard in Resources */,
+				898A87BD1D49A71C0016F3A4 /* Assets.xcassets in Resources */,
+				898A87BB1D49A71C0016F3A4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		898A87C41D49A71D0016F3A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		898A87CF1D49A71D0016F3A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		898A87A91D49A71C0016F3A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				898A87B81D49A71C0016F3A4 /* ViewController.m in Sources */,
+				898A87B51D49A71C0016F3A4 /* AppDelegate.m in Sources */,
+				898A87B21D49A71C0016F3A4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		898A87C21D49A71D0016F3A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				898A87CB1D49A71D0016F3A4 /* SYFlipViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		898A87CD1D49A71D0016F3A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				898A87D61D49A71D0016F3A4 /* SYFlipViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		898A87C81D49A71D0016F3A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 898A87AC1D49A71C0016F3A4 /* SYFlipView */;
+			targetProxy = 898A87C71D49A71D0016F3A4 /* PBXContainerItemProxy */;
+		};
+		898A87D31D49A71D0016F3A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 898A87AC1D49A71C0016F3A4 /* SYFlipView */;
+			targetProxy = 898A87D21D49A71D0016F3A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		898A87B91D49A71C0016F3A4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				898A87BA1D49A71C0016F3A4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		898A87BE1D49A71C0016F3A4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				898A87BF1D49A71C0016F3A4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		898A87D81D49A71D0016F3A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		898A87D91D49A71D0016F3A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		898A87DB1D49A71D0016F3A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SYFlipView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wxhl.com.SYFlipView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		898A87DC1D49A71D0016F3A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SYFlipView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wxhl.com.SYFlipView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		898A87DE1D49A71D0016F3A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SYFlipViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wxhl.com.SYFlipViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SYFlipView.app/SYFlipView";
+			};
+			name = Debug;
+		};
+		898A87DF1D49A71D0016F3A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SYFlipViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wxhl.com.SYFlipViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SYFlipView.app/SYFlipView";
+			};
+			name = Release;
+		};
+		898A87E11D49A71D0016F3A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SYFlipViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wxhl.com.SYFlipViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SYFlipView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		898A87E21D49A71D0016F3A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SYFlipViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wxhl.com.SYFlipViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SYFlipView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		898A87A81D49A71C0016F3A4 /* Build configuration list for PBXProject "SYFlipView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				898A87D81D49A71D0016F3A4 /* Debug */,
+				898A87D91D49A71D0016F3A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		898A87DA1D49A71D0016F3A4 /* Build configuration list for PBXNativeTarget "SYFlipView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				898A87DB1D49A71D0016F3A4 /* Debug */,
+				898A87DC1D49A71D0016F3A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		898A87DD1D49A71D0016F3A4 /* Build configuration list for PBXNativeTarget "SYFlipViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				898A87DE1D49A71D0016F3A4 /* Debug */,
+				898A87DF1D49A71D0016F3A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		898A87E01D49A71D0016F3A4 /* Build configuration list for PBXNativeTarget "SYFlipViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				898A87E11D49A71D0016F3A4 /* Debug */,
+				898A87E21D49A71D0016F3A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 898A87A51D49A71C0016F3A4 /* Project object */;
+}
